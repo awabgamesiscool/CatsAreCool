@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    background-color: rgb(59, 59, 59);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+#firsth1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Subheader */
+#firsth2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* First cat image */
+#imagediv1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#catimage1 {
+    width: 5%;
+    height: auto;
+    background-color: transparent;
+}
+
+/* Paragraph section */
+#paragraphdiv1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+#paragraphdiv1 p {
+    margin-bottom: 10px;
+}
+
+#quoteparagraph {
+    font-family: cursive;
+    color: lightgray;
+}
+
+/* Second cat image */
+#catimage2div {
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 40px;
+}
+
+#catimage2 {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Scroll down sign */
+#scrolldownsign {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    animation: bounce 2s infinite;
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* Under construction section */
+#underconstruction1div {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#underconstructionimage {
+    width: 20%;
+    height: auto;
+    margin-bottom: 3500px;
+}
